@@ -1,0 +1,15 @@
+------------
+Discussion 
+-----------
+
+Q1)Quelle est la différence entre os.platform() et os.arch() ?
+==> os.platform() = Elle sert à identifier le type de système (Windows, Linux, macOS, etc.).
+tant que 
+==> os.arch() = Elle sert à savoir si la machine est en 32 bits ou 64 bits, ou si elle utilise une architecture ARM, x86, etc. 
+
+Q2)À quoi pourrait servir cette information dans une application réelle (ex : tableau de bord système) ?
+
+Tableau de bord système
+
+Afficher les infos techniques de la machine : OS, CPU, mémoire, architecture, uptime, etc.
+

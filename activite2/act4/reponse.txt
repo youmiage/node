@@ -1,0 +1,23 @@
+-----------------------
+Discussion
+---------------------
+
+
+Q1)Quelle est la différence entre une instance directe d’EventEmitter et une classe qui l’étend ?
+
+==>Une instance directe = juste un objet émetteur d’événements.
+==>Une classe étendue = un objet spécialisé qui sait émettre ses propres événements, tout en ayant sa propre logique interne .
+
+
+Q2)Pourquoi encapsuler la logique dans une classe ? 
+
+Encapsuler signifie regrouper la logique et les données dans un même module (ici, la classe Logger).
+on peut faire ca pour plusieurs raisons :
+
+-Le code est mieux structuré : la logique du “Logger” (enregistrement + émission d’événements) est dans une seule classe.
+
+-Tu peux créer plusieurs objets Logger indépendants dans différentes parties de ton application.
+
+-Tu peux ajouter d’autres méthodes (ex. saveToFile(), warn(), etc.) sans casser le reste du programme.
+
+-C’est plus facile à maintenir et à comprendre, surtout dans des projets plus grands.

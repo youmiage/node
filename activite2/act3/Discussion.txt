@@ -1,0 +1,11 @@
+Q1)Que se passe-t-il si l’écouteur est enregistré après l’émission de l’événement ?
+  
+Rien ne s’affichera, Parce que l’événement a été émis avant que l’écouteur ne soit enregistré.
+
+En Node.js, les événements ne sont pas stockés.
+
+ 
+
+Q2)Peut-on avoir plusieurs écouteurs pour un même événement ? 
+
+oui bien sur , Tous les écouteurs enregistrés pour un même événement sont appelés dans l’ordre d’enregistrement.
